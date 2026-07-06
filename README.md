@@ -1,7 +1,7 @@
-# Supply Chain Logistics Analysis | Power BI
+# Supply Chain Logistics Analysis | Excel
 
 ## **Project Overview**
-This project delivers an end-to-end analysis of a supply chain logistics operation, transforming raw shipment data into an interactive Power BI dashboard. The goal was to monitor carrier performance, delivery efficiency, and shipment costs to help logistics managers optimize routes, reduce transit delays, and improve overall service quality.
+This project delivers an end-to-end analysis of a supply chain logistics operation, transforming raw shipment data into an interactive Excel dashboard. The goal was to monitor carrier performance, delivery efficiency, and shipment costs to help logistics managers optimize routes, reduce transit delays, and improve overall service quality.
 
 The dashboard consolidates **1,406 shipments** across multiple carriers and destinations, providing a clear view of operational KPIs and carrier benchmarks.
 
@@ -31,19 +31,12 @@ To ensure the dashboard drives actionable operational value, the following suppl
 
 ---
 
-## **Technical Implementation**
-I developed several custom DAX measures and visuals to enable dynamic analysis of shipment operations:
-
-* **Core KPIs:**
-    * `Total Shipments`, `Delivery Rate %`, `Avg Cost`, `Avg Transit Days`, `Avg Miles Traveled`
-* **Carrier Benchmarking:**
-    * `Carrier Avg Cost`, `Carrier Avg Weight`, `Carrier Avg Delivery Days`
-    * `Top Carrier %` (Dynamic ranking based on delivery success)
-* **Destination Analysis:**
-    * `Top 7 Destinations by Delivery Rate` (Dynamic TOPN measure)
-* **Time Intelligence:**
-    * `Total Shipment by Month`, `Delivery Count by Month` for seasonal trend tracking
-* **Data Modeling:** Cleaned and structured the raw dataset (Shipment ID, Origin Warehouse, Destination, Carrier, Dates, Weight, Cost, Status, Distance, Transit Days) into an analysis-ready model.
+## **Technical Skills Demonstrated**
+* **Data Cleaning:** Standardized raw shipment records, handled missing values, and formatted dates using Excel functions.
+* **Pivot Tables & Charts:** Built complex pivot architectures to aggregate shipments by carrier, month, and destination.
+* **Advanced Formulas:** Implemented logic for Delivery Rate %, Average Cost, Transit Days, and dynamic Top N destination rankings using formulas like `COUNTIFS`, `AVERAGEIFS`, `SUMIFS`, and `LARGE`.
+* **Interactive Slicers:** Enabled dynamic filtering by **Carrier** and **Month** for real-time exploration.
+* **Dashboard Design:** Created a clean, professional dark-themed user interface with custom KPI cards, bar charts, line charts, and a donut chart for the top carrier.
 
 ---
 
@@ -70,8 +63,8 @@ The dataset contains detailed shipment records with the following fields:
 ---
 
 ## **How to Explore**
-1. **Download:** Clone the repository or download the `.pbix` file along with the `dataset.csv`.
-2. **Open:** Launch the file in Power BI Desktop.
+1. **Download:** Clone the repository or download the `supply-chain-logistics-analysis.xlsx` file.
+2. **Open:** Open the file in Microsoft Excel (Click **"Enable Content"** if prompted).
 3. **Interact:** Use the **Carrier slicer** and **Month timeline** to filter the dashboard dynamically.
 4. **Analyze:** Compare carrier performance metrics to identify the most cost-effective and reliable shipping partners.
 
