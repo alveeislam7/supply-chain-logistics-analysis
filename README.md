@@ -34,7 +34,7 @@ To ensure the dashboard drives actionable operational value, the following suppl
 ## **Technical Skills Demonstrated**
 * **Data Cleaning:** Standardized raw shipment records, handled missing values, and formatted dates using Excel functions.
 * **Pivot Tables & Charts:** Built complex pivot architectures to aggregate shipments by carrier, month, and destination.
-* **Advanced Formulas:** Implemented logic for Delivery Rate %, Average Cost, Transit Days, and dynamic Top N destination rankings using formulas like `COUNTIFS`, `AVERAGEIFS`, `SUMIFS`, and `LARGE`.
+* **Advanced Formulas:** Implemented logic for Delivery Rate %, Average Cost and Transit Days.
 * **Interactive Slicers:** Enabled dynamic filtering by **Carrier** and **Month** for real-time exploration.
 * **Dashboard Design:** Created a clean, professional dark-themed user interface with custom KPI cards, bar charts, line charts, and a donut chart for the top carrier.
 
